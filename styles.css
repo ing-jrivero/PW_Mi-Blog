@@ -3,11 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    font-size: 10px;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin: 1em auto;
     
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap:1em;
+   /* border: 2px solid purple;*/
+    
+}
+header h1{
+    font-size: 5rem;
+
 }
 
 footer{
     text-align: center;
+    font-size: 1.75rem;
 }
